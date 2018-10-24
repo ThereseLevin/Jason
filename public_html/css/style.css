@@ -1,3 +1,13 @@
 h1, p {
     text-align: center;
 }
+
+body {
+    background-image: url("../json.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all {
+    min-height: 100vh;
+}
