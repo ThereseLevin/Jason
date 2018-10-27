@@ -7,6 +7,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic|Lobster+Two");
+@import url("https://fonts.googleapis.com/css?family=Acme");
 html {
   line-height: 1.15;
   /* 1 */
@@ -336,4 +338,84 @@ template {
   display: none;
 }
 
+/* - - - - VARIABLES - - - - */
+/* COLORS */
+/* FONTS */
+/* Font family */
+/* Sizes */
+/* Shadow */
+body {
+  background-image: url("../media/js.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.grid-1 {
+  display: grid;
+  width: 70%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: auto;
+  margin-top: 3em;
+  grid-gap: 1.5em;
+}
+.grid-1 div {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  height: 30vh;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.col-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.col-2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.col-4 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.col-5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
 /* --- HEADER --- */
+header {
+  border: 3px solid black;
+  width: 70%;
+  height: 40%;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+img {
+  width: 30vh;
+}
+
+/* --- FOOTER --- */
+footer {
+  border: 3px solid black;
+  width: 70%;
+  height: 20vh;
+  margin: auto;
+  background-color: #FFFFFF;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}

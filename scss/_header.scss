@@ -1,1 +1,16 @@
 /* --- HEADER --- */
+
+header {
+    border: 3px solid black;
+    width: $size-main;
+    height: 40%;
+    margin: auto;
+    background-color: $primary-color;
+    margin-top: $size-second;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 30vh;
+}

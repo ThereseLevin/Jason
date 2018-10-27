@@ -1,0 +1,45 @@
+body {
+    background-image: url("../media/js.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.grid-1 {
+    display: grid;
+    width: $size-main;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    margin-top: $size-second;
+    grid-gap: $size-third;
+
+    div {
+        background-color: $primary-color;
+        border: 1px solid black;
+        height: 30vh;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.col-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.col-4 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.col-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
