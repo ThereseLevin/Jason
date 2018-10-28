@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Lobster+Two');
-@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy');
 
 /* - - - - VARIABLES - - - - */
 
@@ -14,12 +13,12 @@ $transparent: rgba(255, 255, 255, 0.8);
 /* FONTS */
 
 /* Font family */
-$font-main: 'Lobster Two', cursive, serif;
-$font-second:  'Acme', sans-serif;
+$font-main: 'Lobster', cursive;
+$font-second: 'Luckiest Guy', cursive;
 $font-third: 'Didact Gothic', sans-serif;
 
 /* Sizes */
-$size-main: 70%;
+$size-main: 60%;
 $size-main-2: 4.5em;
 $size-second: 3em;
 $size-third: 1.5em;

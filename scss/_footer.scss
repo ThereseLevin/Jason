@@ -1,11 +1,14 @@
 /* --- FOOTER --- */
 
 footer {
-    border: 3px solid black;
-    width: $size-main;
+    border: 8px solid black;
+    width: 100%;
     height: 20vh;
     margin: auto;
     background-color: $primary-color;
     margin-top: $size-second;
     margin-bottom: $size-second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
